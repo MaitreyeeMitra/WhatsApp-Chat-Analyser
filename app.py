@@ -5,6 +5,8 @@ import seaborn as sns
 
 st.sidebar.title("Whatsapp Chat Analyzer")
 st.sidebar.subheader("Project by Maitreyee Mitra of CSE-AIML")
+st.sidebar.write("Made by [Maitreyee Mitra](https://github.com/MaitreyeeMitra)")
+st.sidebar.write("[Source Code](https://github.com/MaitreyeeMitra/WhatsApp-Chat-Analyser)")
 
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
